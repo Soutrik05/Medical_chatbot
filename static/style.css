@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #002366;
+    font-family: 'Arial', sans-serif;
+}
+
+.chat {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card {
+    height: 80vh;
+    border-radius: 20px;
+    background-color: #f1f7ff;
+}
+
+.msg_head {
+    position: relative;
+    padding: 15px;
+    background-color: #f1f7ff;
+    border-radius: 20px 20px 0 0;
+}
+
+.user_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.img_cont {
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+.online_icon {
+    position: absolute;
+    height: 12px;
+    width: 12px;
+    background-color: limegreen;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    border: 2px solid white;
+}
+
+.user_info {
+    margin-left: 15px;
+}
+
+.user_info span {
+    font-weight: bold;
+    color: #2b5dad;
+    font-size: 18px;
+}
+
+.user_info p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.msg_card_body {
+    overflow-y: auto;
+    padding: 15px;
+    background-color: #e4efff;
+    height: calc(100% - 150px);
+}
+
+.msg_cotainer, .msg_cotainer_send {
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 75%;
+    position: relative;
+}
+
+.msg_cotainer {
+    background-color: #ffffff;
+    margin-left: 10px;
+}
+
+.msg_cotainer_send {
+    background-color: #579ffb;
+    color: white;
+    margin-right: 10px;
+}
+
+.msg_time, .msg_time_send {
+    font-size: 10px;
+    position: absolute;
+    bottom: -20px;
+    right: 10px;
+    color: #999;
+}
+
+.type_msg {
+    height: 45px;
+    border: none;
+    border-radius: 0;
+}
+
+.send_btn {
+    background-color: #579ffb;
+    color: white;
+    border-radius: 0;
+}

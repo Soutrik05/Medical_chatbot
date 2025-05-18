@@ -7,4 +7,5 @@ faiss-cpu
 langchain-huggingface
 groq
 langchain_groq
+gunicorn
 -e .
